@@ -1,0 +1,20 @@
+{
+    "name": "grupo2/peluqueria",
+    "description": "Aplicación Web para una peluquería",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Grupo2\\Peluqueria\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "grupo2"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
